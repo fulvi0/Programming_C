@@ -36,4 +36,4 @@ $ ./file
 | 14 | Programa que pida 2 nombre y al final imprima un letrero que diga si los 2 nombres son iguales. | :heavy_check_mark: |
 | 15 | Programa que pida cuatro numeros y al final los imprima de menor a mayor. | :heavy_check_mark: |
 | 16 | Programa que pida 4 numeros y al final los imprima  de mayor a menor. | :heavy_check_mark: |
-| 17 | Programa que pida 3 letras y al final imprima cuantas repeticiones hay. | :heavy_check_mark: |
+| 17 | Programa que pida 3 letras y al final imprima cuantas repeticiones hay. | :heavy_multiplication_x: |
