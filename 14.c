@@ -21,10 +21,10 @@ int main(int argc, char const *argv[]) {
     resultado = strcmp(nombre1, nombre2);
 
     if (resultado == 0) {
-      printf("Los nombre ingresados son iguales \n Primer nombre = %s \n Segundo nombre = %s \n", nombre1, nombre2);
+      printf("Los nombres ingresados son iguales \n Primer nombre = %s \n Segundo nombre = %s \n", nombre1, nombre2);
     }
     else {
-      printf("Los nombre ingresados no son iguales\n Primer nombre = %s \n Segundo nombre = %s \n", nombre1, nombre2);
+      printf("Los nombres ingresados no son iguales\n Primer nombre = %s \n Segundo nombre = %s \n", nombre1, nombre2);
     }
 
   return 0;

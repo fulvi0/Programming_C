@@ -28,7 +28,7 @@ int main(){
     }
   }
 
-  printf("Ordenado ascendentemente:\n");
+  printf("Ordenados ascendentemente:\n");
 
   for ( x = 0 ; x < n ; x++ )
      printf("%d\n", array[x]);
