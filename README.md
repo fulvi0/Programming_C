@@ -25,7 +25,6 @@ $ make file
 $ ./file
 ```
 
-<<<<<<< HEAD
 ## Practica
 
 10. Programa que pida 3 numeros y al final imprima los numeros del 1 al 15 menos los numeros capturados.
@@ -36,7 +35,7 @@ $ ./file
 15. Programa que pida cuatro numeros y al final los imprima de menor a mayor.
 16. Programa que pida 4 numeros y al final los imprima  de mayor a menor.
 17. Programa que pida 3 letras y al final imprima cuantas repeticiones hay.
-=======
+
 ## Ejecicios
 
 | Programa | Descripcion | Estatus |
@@ -49,4 +48,4 @@ $ ./file
 | 15 | Programa que pida cuatro numeros y al final los imprima de menor a mayor. | :heavy_check_mark: |
 | 16 | Programa que pida 4 numeros y al final los imprima  de mayor a menor. | :heavy_check_mark: |
 | 17 | Programa que pida 3 letras y al final imprima cuantas repeticiones hay. | :heavy_multiplication_x: |
->>>>>>> 0f6dcb78d30c012e20effa25b2b149a85f7c8af1
+
