@@ -11,7 +11,7 @@
 | Estudiante | Matricual |
 |------------|:-----------|
 |Carlos F. Antonio | *12-EISN-1-279* |
-|Gabriel Hernandez Morales|*falta*|
+|Gabriel Hernandez Morales|*11-SISN-1-019*|
 
 ## Clonar repositorio, compilar y ejecutar programas en GNU/Linux
 ```bash
