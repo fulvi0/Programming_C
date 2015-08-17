@@ -4,31 +4,33 @@
   del 1 al 15 menos los numeros capturados
 */
 
-// #include <stdio.h>
-//
-// int main()
-// {
-//    int array[15], position, c;
-//    int n = 15;
-//
-//    for ( c = 0 ; c < n ; c++ )
-//       scanf("%d", &array[c]);
-//
-//    printf("Enter the location where you wish to delete element\n");
-//    scanf("%d", &position);
-//
-//    if ( position >= n+1 )
-//       printf("Deletion not possible.\n");
-//    else
-//    {
-//       for ( c = position - 1 ; c < n - 1 ; c++ )
-//          array[c] = array[c+1];
-//
-//       printf("Resultant array is\n");
-//
-//       for( c = 0 ; c < n - 1 ; c++ )
-//          printf("%d\n", array[c]);
-//    }
-//
-//    return 0;
-// }
+#include <stdio.h>
+
+int main(){
+  
+  int i, a, b, c; // variables
+  
+  // Solicitamos al usuario ingresar 3 numero enteros entre 1 & 15
+  printf("Ingrese 3 No. entre 1 & 15 \n\n");
+    // alojamos los numeros ingresados en las variables
+    scanf("%d %d %d", &a, &b, &c);
+    
+  printf("No. 1 al 15 menos los numeros capturados \n");
+  
+  // For loop para imprimir los numero hasta 15
+  for (i = 1; i <= 15; i++) {
+    
+    // Condicional para excluir los numero capturados
+    if(i == a || i == b || i == c){
+      
+      continue; // excluimos los numeros capturados                  
+    }
+    
+    else{
+      // Imprimimos los numero restantes entre 1 & 15
+      printf("%d \n", i);
+    }
+  }
+  
+  return 0;
+}
