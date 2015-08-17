@@ -8,11 +8,14 @@
 
 int main(){
   
-  int i;
-  int a, b, c;
+  int i;        //variable para contador
+  int a, b, c; // variable para 
   
-  printf("Ingrese un No. entre 1 & 15 \n\n");
+  // Solicitamos al usuario ingresar 3 numero enteros entre 1 & 15
+  printf("Ingrese 3 No. entre 1 & 15 \n\n");
+    // alojamos los numeros ingresados en las variables
     scanf("%d %d %d", &a, &b, &c);
+    
   printf("No. 1 al 15 menos los numeros capturados \n");
   
   // For loop para imprimir los numero hasta 15
