@@ -1,21 +1,19 @@
 # Universidad O&M
 
-## Programacion C | Prof. Jose Luis Amberes Pujols
+### Programacion C | Prof. Jose Luis Amberes Pujols
 
 *Periodo: MAYO/AGOSTO 2015*
 
 *Seccion 0727*
 
-##  Practica Final
+###  Practica Final | [Google doc](https://docs.google.com/document/d/1comvQVqlrLxTkQHQx-4NzwyMkXWExKSZmwM67MZq4VQ/edit?usp=sharing)
 
 | Estudiante | Matricual |
 |------------|:-----------|
 |Carlos F. Antonio | *12-EISN-1-279* |
 |Gabriel Hernandez Morales|*11-SISN-1-019*|
 
-[Google doc](https://docs.google.com/document/d/1comvQVqlrLxTkQHQx-4NzwyMkXWExKSZmwM67MZq4VQ/edit?usp=sharing)
-
-## Clonar repositorio, compilar y ejecutar programas en GNU/Linux
+### Clonar repositorio, compilar y ejecutar programas en GNU/Linux
 ```bash
 # Clone repositorio
 $ git clone git@bitbucket.org:fulvi0/programming_c.git
@@ -27,7 +25,7 @@ $ make file
 $ ./file
 ```
 
-## Ejecicios
+### Ejecicios
 
 | Programa | Descripcion | Estatus |
 |----------|-------------|---------|
