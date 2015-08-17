@@ -1,60 +1,29 @@
 /*
-  11- Programa que pida el numero del mes y
+  11 - Programa que pida el numero del mes y
       al final imprima los meses siguientes en letras.
 */
 
-#include <stdio.h>
+#include<stdio.h>
 
-int main(){
+// arreglo para almacenar los meses del año
+const char* meses[12] = {
+  "Enero","Febrero","Marzo","Abril","Mayo","Junio",
+  "Julio","Agosto", "Septiembre","Octubre","Noviembre","Diciembre"};
 
-  int n;
+int main(void){
 
-  printf("Month No:-> ");
-
-  scanf("%d",&n);
-
-       switch(n)
-       {
-    	case 1:
-    	       printf("January \n");
-    	       break;
-    	case 2:
-    	       printf("February \n");
-    	       break;
-    	case 3:
-    	       printf("March \n");
-    	       break;
-    	case 4:
-    	       printf("April \n");
-    	       break;
-    	case 5:
-    	       printf("MAy \n");
-    	       break;
-    	case 6:
-    	       printf("June \n");
-    	       break;
-    	case 7:
-    	       printf("July \n");
-    	       break;
-    	case 8:
-    	       printf("August \n");
-    	       break;
-    	case 9:
-    	       printf("September \n");
-    	       break;
-    	case 10:
-    	       printf("October \n");
-    	       break;
-    	case 11:
-    	       printf("November \n");
-    	       break;
-    	case 12:
-    	       printf("December \n");
-    	       break;
-    	default:
-    	       printf("invalid Month number \nPlease try again ... \n");
-    	       break;
-          }
-
-   return 0;
+  int cap, i;   // variables
+  
+  // Solicitados al usuario ingresar el número de un mes
+  printf("Introduzca el número del mes: \n");
+    // Alojamos el número del mes en la variable
+    scanf("%d", &cap);
+  printf("---- \n");
+  
+  for(i = cap; i < 12; i++){ // For loop para comparar el mes con el arreglo
+    
+    printf("%s \n", meses[i]);// Imprimimos los meses restantes.
+  }
+  
+  return 0;
 }
