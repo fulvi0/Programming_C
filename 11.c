@@ -3,7 +3,7 @@
       al final imprima los meses siguientes en letras.
 */
 
-#include<stdio.h>
+#include <stdio.h>
 
 // arreglo para almacenar los meses del año
 const char* meses[12] = {
