@@ -13,6 +13,9 @@
 |Carlos F. Antonio | *12-EISN-1-279* |
 |Gabriel Hernandez Morales|*11-SISN-1-019*|
 
+### Documento
+[Google doc](https://docs.google.com/document/d/1comvQVqlrLxTkQHQx-4NzwyMkXWExKSZmwM67MZq4VQ/edit?usp=sharing)
+
 ## Clonar repositorio, compilar y ejecutar programas en GNU/Linux
 ```bash
 # Clone repositorio

@@ -8,8 +8,7 @@
 
 int main(){
   
-  int i;        //variable para contador
-  int a, b, c; // variable para 
+  int i, a, b, c; // variables
   
   // Solicitamos al usuario ingresar 3 numero enteros entre 1 & 15
   printf("Ingrese 3 No. entre 1 & 15 \n\n");
